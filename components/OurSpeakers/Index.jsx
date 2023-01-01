@@ -1,16 +1,16 @@
-import { useRef } from "react";
-import YellowButton from "../shared/YellowButton";
-import Image from "next/image";
-import RightArrow from "../../images/sectionsAssets/rightArrow.png";
-import LeftArrow from "../../images/sectionsAssets/leftArrow.png";
-import Maqam from "../../images/shapes/GDGAlgiers.png";
-import globe from "../../images/shapes/globe.png";
-import atom from "../../images/shapes/atom.png";
-import computer from "../../images/shapes/computer.png";
-import SectionTitle from "../../components/shared/SectionTitle";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { speakers } from "./data";
+import { useRef } from 'react';
+import YellowButton from '../shared/YellowButton';
+import Image from 'next/image';
+import RightArrow from '../../images/sectionsAssets/rightArrow.png';
+import LeftArrow from '../../images/sectionsAssets/leftArrow.png';
+import Maqam from '../../images/shapes/GDGAlgiers.png';
+import globe from '../../images/shapes/globe.png';
+import atom from '../../images/shapes/atom.png';
+import computer from '../../images/shapes/computer.png';
+import SectionTitle from '../../components/shared/SectionTitle';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { speakers } from './data';
 
 const OurSpeakers = () => {
   const swiperRef = useRef(null);
@@ -18,7 +18,7 @@ const OurSpeakers = () => {
   return (
     <section id="speakers" className="relative section-container">
       <div className="mb-12 lg:mb-0">
-        <SectionTitle title={"Our Speakers"} /> 
+        <SectionTitle title={'Our Speakers'} />
       </div>
 
       <div className="visible absolute sm:bottom-0 sm:right-0 sm:w-[45px] md:top-0 md:right-0 md:w-[55px] md:h-[55px] lg:top-1/4 lg:right-[50px] lg:top-[50px] lg:w-[100px] 2xl:w-[150px] 2xl:h-[120px] z-25 ">
@@ -77,15 +77,19 @@ const OurSpeakers = () => {
                   <div
                     className={` ${
                       isActive
-                        ? "lg:scale-75"
+                        ? 'lg:scale-75'
                         : isPrev || isNext
-                        ? "lg:scale-100"
-                        : "lg:scale-75"
+                        ? 'lg:scale-100'
+                        : 'lg:scale-75'
                     }`}
                   >
                     <div className="sm:mt-[50px]">
                       <div className="relative  border-qiskit-black border-4 -z-10">
-                        <Image src={spk.image} alt={spk.name} layout="responsive"/>
+                        <Image
+                          src={spk.image}
+                          alt={spk.name}
+                          layout="responsive"
+                        />
                       </div>
 
                       <div className="retlative w-4/5 mx-auto z-10 -mt-20 ">

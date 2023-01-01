@@ -13,7 +13,7 @@ import Tilt from 'react-parallax-tilt';
 import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen hero-bg">
+    <section id="home" className="min-h-screen">
       <div className="section-container pb-24 md:pb-0">
         <Navbar />
         <div className="flex flex-col gap-16 lg:gap-0 relative">
@@ -27,7 +27,7 @@ const Hero = () => {
             <Image src={Maqam} alt="" />
           </div>
           <div className="flex flex-col lg:flex-row items-center">
-            <div className="flex flex-col gap-7 flex-1 lg:pl-12 text-qiskit-white">
+            <div className="flex flex-col gap-7 flex-1 lg:pl-12 text-black">
               <h1 className="font-bold text-center lg:text-left text-4xl lg:text-6xl 2xl:text-7xl leading-[4.5rem]">
                 <Typewriter
                   options={{

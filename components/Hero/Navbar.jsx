@@ -7,23 +7,25 @@ import Bluebutton from '../shared/Bluebutton';
 const Navbar = () => {
   const [isNavToggled, setIsNavToggled] = useState(false);
   return (
-    <header className="pt-8 lg:pt-1 flex flex-col gap-8">
+    <header className="pt-8 lg:pt-1 flex flex-col gap-8 relative">
       {/* Desktop menu */}
       <div>
         <div className="flex justify-between items-center">
           <div className="mt-3">
-            <Image src={WTMAlgiers} alt="WTM Algiers" width={180} height={50} />
+            <Image
+              src={WTMAlgiers}
+              alt="WTM Algiers"
+              width={180}
+              height={50}
+              className=""
+            />
           </div>
-
-          <ul className="hidden lg:flex items-center text-xl gap-16 font-medium text-qiskit-white 2xl:text-4xl 2xl:gap-24">
+          <ul className="hidden lg:flex items-center text-xl gap-16 font-medium 2xl:text-4xl 2xl:gap-24">
             {NavLinks.map((navLink, idx) => {
               return (
                 <Link key={idx} href={navLink.redirect}>
-                  <li className="cursor-pointer hover:text-qiskit-yellow transition-all duration-500 relative">
-                    {navLink.content == 'Home' && (
-                      <div className="absolute left-0 -bottom-[4px] h-[5px] w-4/6 bg-qiskit-white"></div>
-                    )}
-                    <p>{navLink.content}</p>
+                  <li className="cursor-pointer hover:text-qiskit-yellow transition-all duration-500">
+                    <p className="text-red-600">{navLink.content}</p>
                   </li>
                 </Link>
               );
@@ -48,7 +50,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       {isNavToggled && (
         <div className="flex flex-col items-center lg:hidden">
-          <ul className="flex flex-col items-center text-xl gap-16 font-medium text-qiskit-white 2xl:text-4xl 2xl:gap-24">
+          <ul className="flex flex-col items-center text-xl gap-16 font-medium  2xl:text-4xl 2xl:gap-24">
             {NavLinks.map((navLink, idx) => {
               return (
                 <Link key={idx} href={navLink.redirect}>
