@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>WTM Algiers Qiskit2022</title>
-        <link rel="shortcut icon" href="/qiskit.png" />
+        <title>Quantum ai Events</title>
+        <link rel="shortcut icon" href="/quantum-logo.png" />
       </Head>
 
       <Hero />
