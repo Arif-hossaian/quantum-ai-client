@@ -9,19 +9,7 @@ const AboutUs = () => {
   return (
     <section id="about-us">
       {/* <div className=" z-0 h-[100px] max-w-[100%] bg-gradient-to-t from-[#3177ab] to-qiskit-white"></div> */}
-
       <div className="relative about-bg py-16">
-        <div className="absolute top-1/4 right-4 lg:w-[55px] h-[32px] w-[32px] lg:h-[55px] 2xl:w-[82px] 2xl:h-[82px]">
-          <Image src={globe} layout="fill" />
-        </div>
-
-        <div className="absolute bottom-8 left-4 w-[32px] h-[32px] md:w-[40px] md:h-[40px] lg:w-[55px] lg:h-[55px] 2xl:w-[82px] 2xl:h-[82px]">
-          <Image src={globe} layout="fill" />
-        </div>
-
-        <div className="absolute bottom-1/2 left-8 w-[75px] h-[53px] md:w-[40px] md:h-[40px] lg:w-[106px] lg:h-[76px] 2xl:w-[160px] 2xl:h-[112px]">
-          <Image src={maqam} layout="fill" />
-        </div>
         <div className="w-10/12 mx-auto flex flex-col gap-8">
           <SectionTitle isWhite={true} title={"About us"} />
           <div className="flex flex-col gap-12 lg:gap-28">

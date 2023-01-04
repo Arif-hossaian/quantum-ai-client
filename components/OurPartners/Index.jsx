@@ -34,13 +34,6 @@ const OurPartners = () => {
       <div className="flex flex-row">
         <div className=" w-1/12 ml-6">
           <div className=" hidden lg:flex">
-            <div className="mt-5">
-              <Image src={globe} alt="globe" height={50} width={50} />
-            </div>
-            <div className="mt-72">
-              {" "}
-              <Image src={atom} alt="atom" height={50} width={50} />
-            </div>
           </div>
         </div>
         <div className="w-10/12">
@@ -62,19 +55,6 @@ const OurPartners = () => {
                 </Link>
               </div>
             ))}
-          </div>
-          <div className=" hidden lg:flex  md:ml-32  md:-mt-40  opacity-50">
-            <Image src={computer} height={50} width={50} />
-          </div>
-        </div>
-        <div className="w-1/12">
-          <div className="hidden lg:flex lg:flex-col">
-            <div className="justify-end -mt-12 ">
-              <Image src={GDGAlgiers} alt="GDGAlgiers" />{" "}
-            </div>
-            <div className="mt-96">
-              <Image src={globe} alt="globe" height={50} width={50} />
-            </div>
           </div>
         </div>
       </div>

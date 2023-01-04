@@ -13,6 +13,7 @@ module.exports = {
     },
     colors: {
       "qiskit-white": "#FFFFFF",
+      "qiskit-footer": "#2A7EDC",
       "qiskit-black": "#000000",
       "qiskit-yellow": "#FDDC69",
       "qiskit-blue-lighter": "#9EF0F0",

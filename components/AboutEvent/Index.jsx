@@ -9,53 +9,9 @@ import computer from "../../images/shapes/computer.png";
 
 const AboutEvent = () => {
     return (
-    <section id="about-event" className="section-container pt-12 lg:pt-24"> 
-      <div className="relative">
-        <div className="absolute right-0 top-0 sm:right-[596px] sm:top-0 w-[28px] h-[30px]  lg:w-[47px] lg:h-[50px] 2xl:w-[70px] 2xl:h-[70px]">
-          <Image 
-          src={atom}
-          alt="atom"
-              />
-        </div>
-      </div>     
-      <SectionTitle title={"About The Event"}/>
-      
-      <div className="relative">
-        <div className="absolute top-[460px] right-0 sm:top-[-70px] sm:right-0 lg:top-[-32px] lg:right-0  w-[68px] h-[58px] lg:w-[106px] lg:h-[74px] 2xl:w-[70px] 2xl:h-[70px]">
-              <Image
-                src={GDGAlgiers}
-                alt="GDG"
-              />
-          </div>
-        </div>
-        
-        
+    <section id="about-event" className="section-container pt-12 lg:pt-12">      
+      <SectionTitle title={"About The Event"}/>  
       <div>
-      <div className="relative">
-        <div className="absolute top-[650px] sm:top-[450px] right-[122px]  h-[48px] w-[48px] lg:right-[10px] 2xl:right-[10px] lg:w-[55px] lg:h-[55px] 2xl:w-[82px] 2xl:h-[82px]">
-              <Image
-                src={globe}
-                alt="globe"
-              />
-        </div>
-      </div>
-      <div className="relative">
-        <div className="absolute top-[400px] left-[-30px] sm:top-[340px] sm:left-[-30px] h-[53px] w-[56px] lg:h-[66px] lg:w-[70px] 2xl:w-[105px] 2xl:h-[99px]">
-              <Image
-                src={atom}
-                alt="atom"
-              />
-        </div>
-      </div>
-      <div className="relative">
-        <div className="absolute top-[-35px] left-[-25px] h-[38px] w-[38px] lg:w-[55px] lg:h-[55px] 2xl:w-[82px] 2xl:h-[82px]">
-              <Image
-                src={globe}
-                alt="globe"
-              />
-        </div>
-      </div>
-        
         <div className= "gap-8 row-2 lg:columns-2 mt-[50px]">
           <div><Image src={Map} alt="" /></div>
           <div className="gap-8 rows-2 p-4 sm:p-10">

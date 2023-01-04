@@ -17,15 +17,7 @@ const Hero = () => {
       <div className="section-container pb-24 md:pb-0">
         <Navbar />
         <div className="flex flex-col gap-16 lg:gap-0 relative">
-          <div className="w-12 h-12 absolute top-1/4 left-4 lg:top-4 lg:left-4">
-            <Image src={Atom} alt="" />
-          </div>
-          <div className="w-12 h-12 absolute top-12 left-[90%] lg:top-4 lg:left-1/4">
-            <Image src={Globe} alt="" />
-          </div>
-          <div className="hidden lg:block w-16 h-16 absolute top-4 right-16">
-            <Image src={Maqam} alt="" />
-          </div>
+         
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex flex-col gap-7 flex-1 lg:pl-12 text-black">
               <h1 className="font-bold text-center lg:text-left text-4xl lg:text-6xl 2xl:text-7xl leading-[4.5rem]">
@@ -57,22 +49,11 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="flex items-center">
-            <div className="hidden lg:flex">
-              <Image src={GDGAlgiers} alt="" />
-            </div>
+          <div className="flex items-center mt-5">
             <CounterContainer countDownLimit={1666425600000} />
           </div>
 
-          <div className="w-12 h-12 absolute bottom-16 left-8">
-            <Image src={Atom} />
-          </div>
-          <div className="hidden lg:block w-12 h-12 absolute bottom-1/4 right-8">
-            <Image src={Globe} />
-          </div>
-          <div className="hidden lg:block w-12 h-12 absolute bottom-1/4 right-2/4">
-            <Image src={Computer} />
-          </div>
+          
         </div>
       </div>
     </section>
