@@ -6,7 +6,7 @@ export const agenda = [
   },
   {
     Time: '14th January 2023 | 8:00 PM ',
-    event: 'AI in Bangladeshi Startup',
+    event: 'Applications of AI in Bangladesh',
     id: 2,
   },
   {
