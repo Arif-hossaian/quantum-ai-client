@@ -1,23 +1,23 @@
 const navLinks = [
   {
-    content: "Home",
-    redirect: "#home",
+    content: 'Home',
+    redirect: '#home',
   },
   {
-    content: "About",
-    redirect: "#about-us",
+    content: 'About',
+    redirect: '#about-us',
   },
   {
-    content: "Partners",
-    redirect: "#our-partners",
+    content: 'Speakers',
+    redirect: '#speakers',
   },
   {
-    content: "Speakers",
-    redirect: "#speakers",
+    content: 'Partners',
+    redirect: '#our-partners',
   },
   {
-    content: "Agenda",
-    redirect: "#agenda",
+    content: 'Agenda',
+    redirect: '#agenda',
   },
 ];
 

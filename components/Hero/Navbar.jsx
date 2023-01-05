@@ -32,10 +32,6 @@ const Navbar = () => {
             })}
           </ul>
 
-          <div className="hidden lg:flex">
-            <Bluebutton title={'Join us'} />
-          </div>
-
           <div
             onClick={() => setIsNavToggled(!isNavToggled)}
             className="flex flex-col cursor-pointer gap-2 lg:hidden"

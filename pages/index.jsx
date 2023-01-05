@@ -10,15 +10,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Quantum ai Events</title>
+        <title>AI STARTUP SUMMIT – 2023</title>
         <link rel="shortcut icon" href="/quantum-logo.png" />
       </Head>
       <Hero />
       <main className="font-IBM-Plex">
-        <AboutEvent />
         <AboutUs />
-        <OurPartners />
         <OurSpeakers />
+        {/* <AboutEvent /> */}
+        <OurPartners />
         <Agenda />
       </main>
       <Footer />

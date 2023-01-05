@@ -1,46 +1,39 @@
 export const agenda = [
   {
-    Time: "09:00 - 09:30",
-    event: "Opening ceremony",
+    Time: '13th January 2023 | 7:30 PM',
+    event: 'Opening ceremony',
     id: 1,
   },
   {
-    Time: "09:30 - 10:00",
-    event: "Quantum mechanical concepts for quantum computing",
+    Time: '14th January 2023 | 8:00 PM ',
+    event: 'AI in Bangladeshi Startup',
     id: 2,
   },
   {
-    Time: "10:00 - 10:30",
-    event: "Intro to Quantum Computing using Qbraid",
+    Time: '16th January 2023 | 8:00 PM',
+    event: 'AI in Agriculture in Bangladesh',
     id: 3,
   },
   {
-    Time: "10:30 - 11:00",
-    event: "Let's Discover Quantum Computing with Qiskit!",
+    Time: '17th January 2023 | 8:00 PM',
+    event: 'AI in Mental Health',
     id: 4,
   },
   {
-    Time: "11:00 - 11:30",
-    event: "Industrial Applications of Quantum Computing",
+    Time: '18th January 2023 | 8:00 PM',
+    event: 'Using Computer Vision to Ensure Driving Safety',
     id: 5,
   },
   {
-    Time: "11:30 - 12:00",
-    event: "Cryptography in Quantum Computing",
+    Time: '19th January 2023 | 8:00 PM ',
+    event:
+      "4 Years' Learning of Developing and Assessing Capabilities for Impactful Careers in AI",
     id: 6,
   },
+
   {
-    Time: "---------------------------------------------------------------",
-    id: 7,
-  },
-  {
-    Time: "14:00 - 16:00",
-    event: "Workshop: Quantum Random Number Generation",
+    Time: '20th January 2023| 8:00 PM',
+    event: 'Closing and Prize Giving Ceremony',
     id: 8,
-  },
-  {
-    Time: "14:00 - 16:00",
-    event: "Workshop: Quantum Key Distribution",
-    id: 9,
   },
 ];

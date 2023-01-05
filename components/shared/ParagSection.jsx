@@ -1,5 +1,5 @@
-import Image from "next/image";
-import YellowButton from "../shared/YellowButton"
+import Image from 'next/image';
+import YellowButton from '../shared/YellowButton';
 const ParagSection = ({
   keyword1,
   paragraph1,
@@ -7,7 +7,7 @@ const ParagSection = ({
   paragraph2,
   img,
   reverse,
-  redirect
+  redirect,
 }) => {
   return (
     <div className="flex flex-col gap-10 items-center lg:flex-row">
@@ -18,15 +18,11 @@ const ParagSection = ({
           <span className="font-bold text-qiskit-black">{keyword2}</span>
           {paragraph2}
         </p>
-
-        <div>
-          <YellowButton redirect={redirect} title={"Visit our website"} />
-        </div>
       </div>
 
       <div
         className={`relative w-[250px] h-[250px] lg:w-[321px] 2xl:w-[480px]  lg:h-[321px]  2xl:h-[480px] ${
-          reverse && "lg:order-first"
+          reverse && 'lg:order-first'
         }`}
       >
         <Image src={img} alt="" layout="fill" />

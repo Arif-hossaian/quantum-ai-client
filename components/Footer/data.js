@@ -1,75 +1,71 @@
-import Twitter from "../../images/logos/twitter.png";
-import Facebook from "../../images/logos/facebook.png";
-import Instagram from "../../images/logos/instagram.png";
-import Linkedin from "../../images/logos/linkedin.png";
+import Twitter from '../../images/logos/twitter.png';
+import Facebook from '../../images/logos/facebook.png';
+import Instagram from '../../images/logos/instagram.png';
+import Linkedin from '../../images/logos/linkedin.png';
 export const socialsMedia = [
   {
-    social: "Twitter",
+    social: 'Twitter',
     logo: Twitter,
-    redirect: "https://twitter.com/algierswtm",
+    redirect: 'https://twitter.com/algierswtm',
   },
   {
-    social: "Facebook",
+    social: 'Facebook',
     logo: Facebook,
-    redirect: "https://www.facebook.com/WomenTechmakersAlgiers",
+    redirect: 'https://www.facebook.com/WomenTechmakersAlgiers',
   },
   {
-    social: "Instagram",
+    social: 'Instagram',
     logo: Instagram,
-    redirect: "https://www.instagram.com/wtm_algiers/",
+    redirect: 'https://www.instagram.com/wtm_algiers/',
   },
   {
-    social: "Linkedin",
+    social: 'Linkedin',
     logo: Linkedin,
-    redirect: "https://www.linkedin.com/company/gdg-algiers",
+    redirect: 'https://www.linkedin.com/company/gdg-algiers',
   },
 ];
 export const links = [
   {
-    linkName: "Home",
+    linkName: 'Home',
     content: [
       {
-        name: "Registrations",
-        redirect: "#home",
+        name: 'Registrations',
+        redirect: '#home',
       },
     ],
   },
   {
-    linkName: "About",
+    linkName: 'About',
     content: [
       {
-        name: "About event",
-        redirect: "#about-event",
-      },
-      {
-        name: "About us",
-        redirect: "#about-us",
+        name: 'About event',
+        redirect: '#about-event',
       },
     ],
   },
   {
-    linkName: "Partners",
+    linkName: 'Partners',
     content: [
       {
-        name: "Community Partners",
-        redirect: "#our-partners",
+        name: 'Community Partners',
+        redirect: '#our-partners',
       },
       {
-        name: "Sponsors",
-        redirect: "#our-sponsors",
+        name: 'Sponsors',
+        redirect: '#our-sponsors',
       },
     ],
   },
   {
-    linkName: "Speakers",
+    linkName: 'Speakers',
     content: [
       {
-        name: "Speakers",
-        redirect: "#speakers",
+        name: 'Speakers',
+        redirect: '#speakers',
       },
       {
-        name: "Agenda",
-        redirect: "#agenda",
+        name: 'Agenda',
+        redirect: '#agenda',
       },
     ],
   },

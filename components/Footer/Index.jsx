@@ -70,8 +70,29 @@ const Footer = () => {
       </div>
       {/* Copyrights */}
       <div className="flex justify-center px-4">
-        <p className="text-[0.9375rem] pb-2 text-center">
-          Copyright © 2023 Developed by <a target='_blank' href='https://www.traideas.com'  rel="noreferrer" className='text-lg'>Traideas</a> . All Rights Reserved.
+        {/* <p className="text-[0.9375rem] pb-2 text-center">
+          Copyright © 2023 Developed by{' '}
+          <a
+            target="_blank"
+            href="https://www.traideas.com"
+            rel="noreferrer"
+            className="text-lg"
+          >
+            Traideas
+          </a>{' '}
+          . All Rights Reserved.
+        </p> */}
+
+        <p>
+          Made with ❤️{' '}
+          <a
+            target="_blank"
+            href="https://www.traideas.com"
+            rel="noreferrer"
+            className="text-lg underline-offset-1"
+          >
+            Traideas
+          </a>{' '}
         </p>
       </div>
     </footer>
