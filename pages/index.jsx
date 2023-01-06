@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>AI STARTUP SUMMIT – 2023</title>
-        <link rel="shortcut icon" href="/quantum-logo.png" />
+        <link rel="shortcut icon" href="/Logo-PNG.png" />
       </Head>
       <Hero />
       <main className="font-IBM-Plex">
