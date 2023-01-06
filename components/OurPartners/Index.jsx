@@ -28,15 +28,89 @@ const OurPartners = () => {
   ];
   return (
     <section id="our-partners" className="section-container pt-12 lg:pt-24">
-      <div className="text-center">
+      <div>
         <SectionTitle title={'Event Partners'} />
-        <div className="mx-auto max-w-screen-lg px-6 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4  text-center mt-16">
+        <p className="text-2xl font-bold text-center">Co-organizer</p>
+        <div className="flex justify-center items-center text-center mt-10">
+          <img
+            src="https://i.ibb.co/JmmvMCP/1.png"
+            alt="logos"
+            style={{ height: '180px' }}
+          />
+        </div>
+
+        <p className="text-2xl text-center font-bold mt-10">
+          Technical Partner
+        </p>
+        <div className="mx-auto max-w-screen-sm px-16 md:grid lg: md:grid-cols-2 lg:grid-cols-2 flex flex-row  items-center">
+          <div>
+            <img
+              src="https://i.ibb.co/BKXCCTB/6.png"
+              alt="logos"
+              style={{ height: '180px' }}
+            />
+          </div>
+          <div>
+            <img
+              src="https://i.ibb.co/dGTNFFh/5.png"
+              alt="logos"
+              style={{ height: '180px' }}
+            />
+          </div>
+        </div>
+        <p className="text-2xl text-center font-bold mt-10">Outreach Partner</p>
+        <div className="mx-auto max-w-screen-sm flex flex-col md:flex-row lg:flex-row items-center">
+          <div>
+            <img
+              src="https://i.ibb.co/z8nt5BK/2.png"
+              alt="logos"
+              style={{ height: '180px' }}
+            />
+          </div>
+          <div>
+            <img
+              src="https://i.ibb.co/Dwrtd3z/3.png"
+              alt="logos"
+              style={{ height: '180px' }}
+            />
+          </div>
+          <div>
+            <img
+              src="https://i.ibb.co/1sYjxrQ/4.png"
+              alt="logos"
+              style={{ height: '180px' }}
+            />
+          </div>
+          <div>
+            <img
+              src="https://i.ibb.co/5KN5tq9/8.png"
+              alt="logos"
+              style={{ height: '180px' }}
+            />
+          </div>
+          <div>
+            <img
+              src="https://i.ibb.co/WnWBFgh/10.png"
+              alt="logos"
+              style={{ height: '180px' }}
+            />
+          </div>
+        </div>
+        <p className="text-2xl font-bold text-center">Magazine Partner</p>
+        <div className="flex justify-center items-center text-center mt-10">
+          <img
+            src="https://i.ibb.co/dQXVRYQ/9.png"
+            alt="logos"
+            style={{ height: '180px' }}
+          />
+        </div>
+        {/* <div className="mx-auto max-w-screen-lg px-6 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4  text-center mt-16">
           {clientsData.map((content, _id) => (
             <div key={_id}>
               <img src={content.src} alt="logos" style={{ height: '180px' }} />
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

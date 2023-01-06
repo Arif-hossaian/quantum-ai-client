@@ -31,7 +31,8 @@ const Hero = () => {
                 />
               </h1>
               <p className="font-medium text-center lg:text-left leading-[2rem] lg:text-2xl 2xl:text-4xl 2xl:leading-[2.875rem]">
-                Your chance to discover the Quantum Computing world!
+                Your chance to discover the opportunity of building AI based
+                startups for the Bangladeshi ecosystem
               </p>
               <div className="flex items-end">
                 <div className="relative h-[67px] bounce w-[67px] 2xl:w-[101px] 2xl:h-[114px]">
